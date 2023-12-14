@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
+
+
+body {
+    font-family: 'Dhurjati', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+#contenedor{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 700px;
+    border: 1px solid black;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #000000;
+    
+}
+#guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 5px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#guess-button {
+    display: block;
+    margin: 20px auto; 
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 0px;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.letter {
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    min-width: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.row {
+    margin-bottom: 1px;
+}
+
+.input-area {
+    margin: 30px;
+}
+
+.letter {
+    border: none;
+    border-radius: 20%;
+}
+
+#grid {
+    /*position: fixed;*/
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#reloadButton {
+    display: block;
+    margin: 20px auto; 
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 0px;
+}
+
